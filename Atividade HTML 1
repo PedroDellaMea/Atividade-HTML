@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Solicitação de Informações Relacionadas a Dados Pessoais (LGPD)</h2>
+
+<p>Quem está solicitando essas informações?</p>
+<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Titular dos Dados</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Responsável Legal</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Representante Legal</label><br><br>
+</form> 
+<p>Vínculo do titular dos dados com a empresa?</p>
+<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Proprietário de uma conta da empresa</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Usuário terceirizado de uma conta da empresa</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Cliente ativo da empresa</label><br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Ex-cliente da empresa</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Participante de ação de Marketing, como newsletter, ações promocionais e/ou webinars.</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Visitante</label><br><br>
+</form>
+<form action="/action_page.php">
+  <label for="fname">Nome Completo</label><br>
+  <input type="text" id="fname" name="fname" required><br>
+  <label for="lname">CPF</label><br>
+  <input type="text" id="lname" name="lname" required><br>
+  <label for="fname">Nome da empresa titular:</label><br>
+  <input type="text" id="fname" name="fname" required><br>
+  <label for="lname">E-mail para contato:</label><br>
+  <input type="text" id="lname" name="lname" required><br>
+  <label for="lname">Telefone de contato:</label><br>
+  <input type="text" id="lname" name="lname" required><br>
+</form> 
+<p>Prefiro ser contato por:</p>
+<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Telefone</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">E-mail</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Whatsapp</label><br><br>
+</form> 
+<p>Qual das opções abaixo representam melhor o direito que você deseja exercer:</p>
+<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Confirmação da existência de tratamento de dados pessoais</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Acesso aos meus dados pessoais de forma gratuita</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Correção dos dados pessoais e que eu seja notificado após os ajustes necessários</label><br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Portabilidade dos meus dados a outro fornecedor de serviço</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Exclusão dos dados (tratados via consentimento) e que eu seja notificado após ajustes necessários ou justificativa para a não exclusão conforme no Art. 16 da LGPD</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Revogação do consentimento fornecido à Unimed Blumenau para tratamento dos meus dados pessoais</label><br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Remoção dos meus dados de campanhas de marketing e publicitárias</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Possível vazamento dos meus dados pessoais</label><br><br>
+</form> 
+  <input type="submit" value="Submit">
+</body>
+</html>
+
