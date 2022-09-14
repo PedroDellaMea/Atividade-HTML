@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+body {background-color: Linen;}
+h2   {color: RoyalBlue;}
+p    {color: red;}
+</style>
+</head>
 <body>
 
 <h2>Solicitação de Informações Relacionadas a Dados Pessoais (LGPD)</h2>
-
 <p>Quem está solicitando essas informações?</p>
 <form action="/action_page.php">
   <input type="radio" id="html" name="fav_language" value="HTML">
