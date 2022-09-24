@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 align=center>Prova de Conhecimentos Gerais</h1>
+<p>Responda todas as questões, utilize rascunhos em papel para realizar os cálculos. Os rascunhos serão recolhidos pela professora após a quarentena.</p>
+
+<form action="/action_page.php">
+	<fieldset>
+		<legend>Informações do aluno:</legend>
+			<input type="text" id="name" name="name" value="Digite seu nome" required><br><br>
+			<input type="text" id="ngrupo" name="ngrupo" value="Nº de pessoas no grupo" required><br><br>
+			<input type="email" id="email" name="email" value="Digite seu email" required><br><br>
+			<label for="birthday">Data de nascimento:</label><br>
+			<input type="date" id="nascimento" name="nascimento" required><br><br>
+	</fieldset>
+	<fieldset>
+		<legend>Matemática:</legend>
+			<label for="mtm1">3 + 3 =</label>
+			<input type="text" id="mtm1" name="mtm1" required><br><br>
+			<label for="mtm2">10 / 10 =</label>
+			<input type="text" id="mtm2" name="mtm2" required><br><br>
+			<label for="mtm3">5 * 2 =</label>
+			<input type="email" id="mtm3" name="mtm3" required><br><br>
+			<label for="dificuldade">Esta tarefa foi difícil?</label>
+			<input type="range">
+	</fieldset>
+	<fieldset>
+		<legend>Opinião quanto a utilização</legend>
+		<img src="https://fundacaotelefonicavivo.org.br/wp-content/webp-express/webp-images/uploads/2021/05/lingua-portuguesa-1200px-materia.jpg.webp?x53362" alt="portugues" width="295" height="150"><br>
+			<label for="assinalar">Na frase "Eu sou bonito" o sujeito é:</label><br>
+			<input type="radio" id="assinalar1" name="assinalar1" value="BradPitt">
+			<label for="html">Brad Pitt</label><br>
+			<input type="radio" id="assinalar2" name="assinalar2" value="padaria">
+			<label for="css">João da padaria</label><br>
+			<input type="radio" id="assinalar3" name="assinalar3" value="eumesmo">
+			<label for="javascript">Você mesmo</label><br>
+			<input type="radio" id="assinalar4" name="assinalar4" value="pais">
+			<label for="javascript">Meus pais</label><br>
+			<input type="radio" id="assinalar5" name="assinalar5" value="ele">
+			<label for="javascript">Eu</label><br><br>
+			<label for="assinalar">Complemente a frase: "Filho de peixe, peixinho __"</label><br>
+			<input type="checkbox" id="check1" name="check1" value="é">
+			<label for="vehicle1"> é</label><br>
+			<input type="checkbox" id="check2" name="check2" value="tem">
+			<label for="vehicle2"> tem</label><br>
+			<input type="checkbox" id="check3" name="check3" value="verde">
+			<label for="vehicle3"> verde</label><br>
+			<input type="checkbox" id="check4" name="check4" value="bonito">
+			<label for="vehicle2"> bonito</label><br>
+			<input type="checkbox" id="check5" name="check5" value="maria">
+			<label for="vehicle2"> maria</label><br>
+	</fieldset>
+	<fieldset>
+		<legend>Dê uma nota pra sua professora:</legend>
+			<label for="prof">Sua professora explica bem a matéria?</label><br>
+			<input type="range">
+	</fieldset>
+	<fieldset>
+		<legend>Opiniões</legend>
+			<label for="opiniao">Digite sua opinião sobre a disciplina</label><br>
+			<input type="text" style="width: 600px; height: 100px;" required>
+	</fieldset><br>
+	<input type="submit" value="Gravar respostas">
+</form>
+
+</body>
+</html>
