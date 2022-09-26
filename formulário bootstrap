@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Atividades de Aula</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+<form action="/action_page.php">
+<div class="container">
+  <div class="jumbotron">
+    <h1>Atividade de conhecimentos gerais</h1>
+    <p>Responda as questões abaixo:</p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+ 		<fieldset>
+  			<legend>Identidade:</legend>
+  			<label for="fname">Primeiro nome:</label><br>
+  			<input type="text" id="fname" name="fname" required><br><br>
+  			<label for="lname">Segundo nome:</label><br>
+			<input type="text" id="lname" name="lname" required><br><br>
+  			<label for="matricula">Matrícula:</label><br>
+  			<input type="text" id="matricula" name="matricula" required><br><br>
+ 		</fieldset>
+    </div>
+    <div class="col-sm-4">
+ 		<fieldset>
+  			<legend>História:</legend>
+  			<label for="fname">Quem foi a primeira pessoa a viajar no Espaço?</label><br>
+  			<input type="radio" id="yuri" name="hist_atividade" value="HIST">
+            <label for="html">Yuri Gagarin</label><br>
+            <input type="radio" id="laika" name="hist_atividade" value="HIST">
+            <label for="html">A cadela Laika</label><br>
+            <input type="radio" id="neil" name="hist_atividade" value="HIST">
+            <label for="html">Neil Armstrong</label><br>
+            <input type="radio" id="marcos" name="hist_atividade" value="HIST">
+            <label for="html">Marcos Pontes</label><br>
+            <input type="radio" id="buzz" name="hist_atividade" value="HIST">
+            <label for="html">Buzz Aldrin</label><br>
+ 		</fieldset>
+    </div>
+    <div class="col-sm-4">
+ 		<fieldset>
+  			<legend>Geografia:</legend>
+  			<label for="fname">Qual a montanha mais alta do mundo?</label><br>
+  			<input type="radio" id="mauna" name="geo_atividade" value="GEO">
+            <label for="html">Mauna Kea</label><br>
+            <input type="radio" id="dhaul" name="geo_atividade" value="GEO">
+            <label for="html">Dhaulagiri</label><br>
+            <input type="radio" id="chimbo" name="geo_atividade" value="GEO">
+            <label for="html">Monte Chimborazo</label><br>
+            <input type="radio" id="everest" name="geo_atividade" value="GEO">
+            <label for="html">Monte Everest</label><br>
+            <input type="radio" id="neblina" name="geo_atividade" value="GEO">
+            <label for="html">Pico da Neblina</label><br>
+ 		</fieldset><br><br>
+    </div>
+    <div class="col-sm-4">
+ 		<fieldset>
+  			<legend>Química:</legend>
+  			<label for="fname">A que temperatura a água ferve?</label><br>
+            <input type="radio" id="200C" name="qmc_atividade" value="QMC">
+            <label for="html">200 ºC</label><br>
+            <input type="radio" id="-10C" name="qmc_atividade" value="QMC">
+            <label for="html">-10 ºC</label><br>
+            <input type="radio" id="180C" name="qmc_atividade" value="QMC">
+            <label for="html">180 ºC</label><br>
+            <input type="radio" id="0C" name="qmc_atividade" value="QMC">
+            <label for="html">0 ºC</label><br>
+            <input type="radio" id="100C" name="qmc_atividade" value="QMC">
+            <label for="html">100 ºC</label><br>
+ 		</fieldset>
+    </div>
+    <div class="col-sm-4">
+ 		<fieldset>
+  			<legend>Matemática:</legend>
+  			<label for="fname">Um anel tem 3 pedras preciosas. Quantas pedras preciosas têm 11 anéis?</label><br>
+            <input type="radio" id="33" name="mtm_atividade" value="MTM">
+            <label for="html">33</label><br>
+            <input type="radio" id="110" name="mtm_atividade" value="MTM">
+            <label for="html">110</label><br>
+            <input type="radio" id="333" name="mtm_atividade" value="MTM">
+            <label for="html">333</label><br>
+            <input type="radio" id="30" name="mtm_atividade" value="MTM">
+            <label for="html">30</label><br>
+            <input type="radio" id="14" name="mtm_atividade" value="MTM">
+            <label for="html">14</label><br>
+ 		</fieldset>
+    </div>
+    <div class="col-sm-4">
+ 		<fieldset>
+  			<fieldset>
+  			<legend>Física:</legend>
+  			<label for="fname">O que é mais pesado: 1 quilo de algodão ou 1 quilo de ferro? Justifique sua resposta.</label><br>
+            <input type="text" id="200C" name="fsc_atividade" style="height: 100px">
+ 		</fieldset>
+ 		</fieldset>
+    </div>
+  </div>
+</div>
+  <input type="submit" value="Gravar respostas">
+</form>
+</body>
+</html>
