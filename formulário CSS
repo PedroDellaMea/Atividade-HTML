@@ -122,8 +122,9 @@ p    {color: red;}
   		<label for="html">Remoção dos meus dados de campanhas de marketing e publicitárias</label><br>
   		<input type="radio" id="css" name="fav_language" value="CSS">
   		<label for="css">Possível vazamento dos meus dados pessoais</label><br><br>
+        <!-- Botão Submit -->
+  		<button class="button" style="vertical-align:middle"><span>Enviar </span>
+        </button>
 	</form> 
-<!-- Botão Submit -->
-  		<button class="button" style="vertical-align:middle"><span>Enviar </span></button>
 </body>
 </html>
